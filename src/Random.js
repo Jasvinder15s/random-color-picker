@@ -1,8 +1,9 @@
 import React from "react";
-import './App.css'
+import './Random.css'
 import { Button } from "./components/Button";
 
 class Random extends React.Component {
+  
   constructor(props) {
     super(props);
     this.state = {
